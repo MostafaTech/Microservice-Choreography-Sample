@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "MCS.Warehouse": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

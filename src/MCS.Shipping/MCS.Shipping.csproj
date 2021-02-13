@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-MCS.Shipping-E4E2BB05-70A8-4D81-8871-63346BFBF502</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MCS.Core\MCS.Core.csproj" />
+    <ProjectReference Include="..\MCS.Infrastructure\MCS.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>

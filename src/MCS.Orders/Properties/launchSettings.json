@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "MCS.Orders": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
